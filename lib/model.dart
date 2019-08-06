@@ -11,7 +11,7 @@ class MyModel extends Model {
   List<dynamic> values;
   Map<String, String> myHeaders = {
     'Apikey':
-        '391d9fc879e01ce75b1e99fe21e6cce7a802081c23d6c7e037b6032c7728f084',
+        'Your_API_Key',
   };
 
   String myUrl =
