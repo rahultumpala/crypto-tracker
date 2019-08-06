@@ -6,5 +6,5 @@ This app tracks the values of Bitcoin, Ethereum and Litecoin by default using th
 
 To use this please add your Crypto Compare API Key in the model.dart
 
-! I still need to find a way to compare the previous values and modify color accordingly.
+^ I still need to find a way to compare the previous values and modify color accordingly.
 
