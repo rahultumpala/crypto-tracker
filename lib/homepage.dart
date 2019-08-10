@@ -31,7 +31,6 @@ class _MyHomePageState extends State<MyHomePage> {
     print(values);
     List<Widget> k = [];
     IconData icon;
-    Color color = Colors.black;
     for (var i = 0; i < length; i++) {
       switch (keys[i]) {
         case 'USD':
@@ -64,7 +63,6 @@ class _MyHomePageState extends State<MyHomePage> {
               Text('${keys[i]}'),
               Text(
                 ': ${values[i]}',
-                style: TextStyle(color: color),
               ),
             ],
           ),
